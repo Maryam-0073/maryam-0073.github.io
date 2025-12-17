@@ -3,6 +3,159 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portfolio — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <ul>
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About Me</a></li>
+        <li><a class="nav-link" href="#skills">Learning</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="scrollContainer" class="scroll-container">
+    <section id="home" class="section section-hero">
+      <div class="section-inner">
+        <h1>Welcome</h1>
+        <p class="lead">Write your short elevator pitch here. Replace this placeholder with a brief description of who you are and what you build.</p>
+        <p><a class="btn" href="#projects">View projects</a></p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-inner">
+        <!-- Restored About section (original) -->
+        <section class="intro">
+          <h1>Hi. I am Maryam Akhundova. I study Information Technologies in<br> ADA University.</h1>
+
+          <div class="content">
+            <p>I won't lie and tell the truth. I didn't start coding the second I was born and didn't know much about technologies. My parents bought and installed router only when I was 11 years old( just because COVID-19 started and education moved to online).</p>
+            <p>I didn't even started coding when i was 12 or older. I am starting my coding journey now and this is my first project. Children younger than me know more about coding than I do. So, as they say "Better late than never", right?</p>
+            <p>I made huge mistake by not preparing properly for midterm exam and I will do my best to conpensate it. I hope you will enjoy this project. Merry Christmas and Good Luck in future life!!!</p>
+            <p>If You want to make projects together, I would love to <a class="accent" href="#">reach out</a>.</p>
+          </div>
+        </section>
+
+        <aside class="sidebar">
+          <div class="photo-wrap">
+            <!-- Portrait image restored: photo.png -->
+            <img src="./photo.png" alt="Portrait" class="photo">
+          </div>
+
+          <div class="card">
+            <header class="card-head">
+              <span class="icon">📁</span>
+              <h3>Projects &amp; Education</h3>
+            </header>
+
+            <ul class="timeline">
+              <li>
+                <div class="row">
+                  <div class="meta">
+                    <span class="logo">PL</span>
+                    <div>
+                      <div class="title">Portfolio</div>
+                      <div class="muted">IT student</div>
+                    </div>
+                  </div>
+                  <div class="years">2025 — present</div>
+                </div>
+              </li>
+
+              <li>
+                <div class="row">
+                  <div class="meta">
+                    <span class="logo">LG</span>
+                    <div>
+                      <div class="title">Logic Gates</div>
+                      <div class="muted">group project</div>
+                    </div>
+                  </div>
+                  <div class="years">2025 — present</div>
+                </div>
+              </li>
+
+              <li>
+                <div class="row">
+                  <div class="meta">
+                    <span class="logo">AU</span>
+                    <div>
+                      <div class="title">ADA University</div>
+                      <div class="muted">studying Information Technologies</div>
+                    </div>
+                  </div>
+                  <div class="years">2025-2029</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-inner">
+        <h2>Learning &amp; Skills</h2>
+        <p class="muted">Write your description here. List the skills and topics you're learning or comfortable with.</p>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-inner">
+        <h2>Projects</h2>
+        <p class="muted">Here are some placeholder project cards. Replace with your projects, images and links.</p>
+
+        <ul class="projects-grid">
+          <li class="project-card">
+            <div class="project-image" aria-hidden="true"></div>
+            <h3>Project Title</h3>
+            <p class="muted">Write your description here.</p>
+          </li>
+
+          <li class="project-card">
+            <div class="project-image" aria-hidden="true"></div>
+            <h3>Project Title</h3>
+            <p class="muted">Write your description here.</p>
+          </li>
+
+          <li class="project-card">
+            <div class="project-image" aria-hidden="true"></div>
+            <h3>Project Title</h3>
+            <p class="muted">Write your description here.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-inner">
+        <h2>Contact</h2>
+        <p class="muted">Write your contact info or a short note here. Replace this placeholder with your email or instructions.</p>
+        <p><a class="btn" href="contact.html">Open contact form</a></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>About — Portfolio</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@700;900&display=swap" rel="stylesheet">
@@ -10,84 +163,60 @@
 </head>
 <body>
   <header class="site-header">
-    <nav class="nav">
+    <nav class="nav" aria-label="Main navigation">
       <ul>
-        <li><a href="#">home</a></li>
-        <li class="active"><a href="#">about</a></li>
-        <li><a href="#">projects</a></li>
-        <li><a href="#">learning</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="#home" class="nav-link">home</a></li>
+        <li><a href="#about" class="nav-link">about</a></li>
+        <li><a href="#learning" class="nav-link">learning</a></li>
+        <li><a href="#projects" class="nav-link">projects</a></li>
+        <li><a href="#contact" class="nav-link">contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="container">
-    <section class="intro">
-      <h1>Hi. I am Maryam Akhundova. I study Information Technologies in<br> ADA University.</h1>
-
-      <div class="content">
-        <p>I won't lie and tell the truth. I didn't start coding the second I was born and didn't know much about technologies. My parents bought and installed router only when I was 11 years old( just because COVID-19 started and education moved to online).</p>
-        <p>I didn't even started coding when i was 12 or older. I am starting my coding journey now and this is my first project. Children younger than me know more about coding than I do. So, as they say "Better late than never", right?</p>
-        <p>I made huge mistake by not preparing properly for midterm exam and I will do my best to conpensate it. I hope you will enjoy this project. Merry Christmas and Good Luck in future life.</p>
-        <p>If You want to make projects together, I would love to <a class="accent" href="#">reach out</a>.</p>
+  <main class="scroll-container" id="scrollContainer">
+    <section id="home" class="section home">
+      <div class="section-inner">
+        <h1>Welcome</h1>
+        <p class="lead">Placeholder intro — replace with a short elevator pitch about you and what you build.</p>
+        <p><a class="accent" href="#projects">See projects</a> — or <a class="accent" href="#contact">get in touch</a>.</p>
       </div>
     </section>
 
-    <aside class="sidebar">
-      <div class="photo-wrap">
-        <!-- Portrait image: saved as photo.jpg.jpeg in the portfolio folder -->
-        <img src="photo.jpg.jpeg" alt="Portrait" class="photo">
+    <section id="about" class="section about">
+      <div class="section-inner">
+        <h2>About Me</h2>
+        <p class="lead">Short bio placeholder — replace this with a single-line highlight about who you are and what you build.</p>
+        <p>Placeholder paragraph about your background and education. Replace with your own details.</p>
       </div>
+    </section>
 
-      <div class="card">
-        <header class="card-head">
-          <span class="icon">📁</span>
-          <h3>work &amp; education</h3>
-        </header>
+    <section id="learning" class="section learning">
+      <div class="section-inner">
+        <h2>Learning</h2>
+        <p class="muted">Placeholder for courses, notes, and topics you're exploring.</p>
+      </div>
+    </section>
 
-        <ul class="timeline">
-          <li>
-            <div class="row">
-              <div class="meta">
-                <span class="logo">en</span>
-                <div>
-                  <div class="title">enna</div>
-                  <div class="muted">student software engineer</div>
-                </div>
-              </div>
-              <div class="years">2022 — present</div>
-            </div>
-          </li>
-
-          <li>
-            <div class="row">
-              <div class="meta">
-                <span class="logo">pp</span>
-                <div>
-                  <div class="title">puppet</div>
-                  <div class="muted">co-founder</div>
-                </div>
-              </div>
-              <div class="years">2022 — present</div>
-            </div>
-          </li>
-
-          <li>
-            <div class="row">
-              <div class="meta">
-                <span class="logo">TU</span>
-                <div>
-                  <div class="title">tu berlin</div>
-                  <div class="muted">studying computer science</div>
-                </div>
-              </div>
-              <div class="years">2018 — present</div>
-            </div>
-          </li>
+    <section id="projects" class="section projects-section">
+      <div class="section-inner">
+        <h2>Projects</h2>
+        <ul class="projects">
+          <li class="project-card"><h3>Project One</h3><p class="muted">Short description. Replace with links.</p></li>
+          <li class="project-card"><h3>Project Two</h3><p class="muted">Short description. Replace with links.</p></li>
         </ul>
       </div>
-    </aside>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-inner">
+        <h2>Contact</h2>
+        <p class="muted">Use the contact form on the contact page or email me — placeholder below.</p>
+        <p class="muted">Email: you@example.com</p>
+      </div>
+    </section>
   </main>
 
+  <script src="scripts.js"></script>
 </body>
 </html>
