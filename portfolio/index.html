@@ -13,7 +13,7 @@
       <ul>
         <li><a class="nav-link active" href="#home">Home</a></li>
         <li><a class="nav-link" href="#about">About Me</a></li>
-        <li><a class="nav-link" href="#skills">Learning</a></li>
+        <li><a class="nav-link" href="#skills">Achievements</a></li>
         <li><a class="nav-link" href="#projects">Projects</a></li>
         <li><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
@@ -23,9 +23,19 @@
   <main id="scrollContainer" class="scroll-container">
     <section id="home" class="section section-hero">
       <div class="section-inner">
-        <h1>Welcome</h1>
-        <p class="lead">This is my first portfolio.  </p>
-        <p><a class="btn" href="#projects">View projects</a></p>
+          <h1 class="hero-title">Welcome to <span class="hero-name">my<br>Portfolio.</span></h1>
+          <div class="hero-subtitle">IT student</div>
+          <p class="hero-desc">Here, you will get to know more about me, explore my achievements, and see the projects I have worked on. This collection highlights my skills, experiences, and the work I am most proud of, giving you a clear picture of my journey and abilities.</p>
+
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#about">About Me</a>
+            <a class="btn btn-secondary" href="#skills">Achievements <span class="arrow">➜</span></a>
+          </div>
+        </div>
+        <div class="hero-right hero-image" role="img" aria-label="Hero image">
+          <!-- Replace the background-image in CSS or put an <img> here. Use the same image from the provided prototype. -->
+        </div>
+      </section>
       </div>
     </section>
 
@@ -39,7 +49,7 @@
             <p>I won't lie and tell the truth. I didn't start coding the second I was born and didn't know much about technologies. My parents bought and installed router only when I was 11 years old( just because COVID-19 started and education moved to online).</p>
             <p>I didn't even started coding when i was 12 or older. I am starting my coding journey now and this is my first project. Children younger than me know more about coding than I do. So, as they say "Better late than never", right?</p>
             <p>I made huge mistake by not preparing properly for midterm exam and I will do my best to conpensate it. I hope you will enjoy this project. Merry Christmas and Good Luck in future life!!!</p>
-            <p>If You want to make projects together, I would love to <a class="accent" href="#">reach out</a>.</p>
+            <p>If You want to make projects together, I would love to <a class="accent" href="#contact">reach out</a>.</p>
           </div>
         </section>
 
@@ -102,12 +112,34 @@
 
     <section id="skills" class="section">
       <div class="section-inner">
-        <h2>Learning &amp; Skills</h2>
-        <p class="muted">Write your description here. List the skills and topics you're learning or comfortable with.</p>
-        <ul class="skills-list">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
+        <h2>Achievements &amp; Skills</h2>
+        <p class="muted">I will use my "Free Will" and write about my achievements throughout my life, even those that have nothing to do with education.</p>
+
+        <!-- Learning bars (vertical) -- replace names, descriptions and image paths as needed -->
+        <ul class="learning-list">
+          <li class="skill-item">
+            <h3 class="skill-name">Two First places in Swimmimg competition.</h3>
+            <p class="skill-desc">First time when I participaed in swimming competiton, at the last 5 meters i thought that I am the last and swam slow at the end, but then I saw that 3rd place girl was in the same rythm as me. It was good lesson for me and next 2 times i pushed through my limits and took first places.</p>
+            <div class="skill-photo">
+              <img src="./projects/html-photo.jpg" alt="HTML example photo">
+            </div>
+          </li>
+
+          <li class="skill-item">
+            <h3 class="skill-name">World Scholars Cup</h3>
+            <p class="skill-desc">It was competition between english taught schools and my school "Zarifa Alieva Lyceum" was the only russian taught school. There were group debates, kahoot and etc. I got 4th place in Social Science, 12th in History and 1st in Science and Technology. Our team got 12th golden medal in Scholar's Bowl. </p>
+            <div class="skill-photo">
+              <img src="./projects/css-photo.jpg" alt="CSS example photo">
+            </div>
+          </li>
+
+          <li class="skill-item">
+            <h3 class="skill-name">title</h3>
+            <p class="skill-desc">Write up to three short sentences about JavaScript: DOM manipulation, events, and simple interactions. Mention frameworks or libraries if relevant.</p>
+            <div class="skill-photo">
+              <img src="./projects/js-photo.jpg" alt="JavaScript example photo">
+            </div>
+          </li>
         </ul>
       </div>
     </section>
@@ -121,7 +153,7 @@
           <li class="project-card">
             <div class="project-image">
               <!-- Replace the src with your project screenshot -->
-              <img src="./projects/logic-gates.jpg" alt="Logic Gates screenshot" class="project-photo">
+              <img src="./projects/logic-gates.png" alt="Logic Gates screenshot" class="project-photo">
             </div>
             <h3>Logic Gates</h3>
             <p class="muted">First practical group project. </p>
@@ -132,26 +164,38 @@
               <!-- Example placeholder image path: replace as needed -->
               <img src="./projects/project-2.jpg" alt="Project screenshot" class="project-photo">
             </div>
-            <h3>Project Title</h3>
-            <p class="muted">Write your description here.</p>
+            <h3>Robotics project</h3>
+            <p class="muted">Ukranians came to look at this project. </p>
           </li>
 
           <li class="project-card">
             <div class="project-image">
               <img src="./projects/project-3.jpg" alt="Project screenshot" class="project-photo">
             </div>
-            <h3>Project Title</h3>
-            <p class="muted">Write your description here.</p>
+            <h3>Summer camp project</h3>
+            <p class="muted">We had to build car in groups.</p>
           </li>
         </ul>
       </div>
     </section>
 
     <section id="contact" class="section">
-      <div class="section-inner">
-        <h2>Contact if you need help. I am always ready to reach out.</h2>
-        <p class="muted">I will answer all your questions and requests. Click "Open contact form" to get in touch with me.</p>
-        <p><a class="btn" href="contact.html">Open contact form</a></p>
+      <div class="section-inner contact-split">
+        <div class="contact-info">
+          <h2>Get in touch</h2>
+          <p class="muted">Whether you’d like to discuss a project, share ideas, or simply connect, I welcome your message and look forward to exploring potential opportunities and collaborations together.</p>
+
+          <ul class="contact-links">
+            <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer"><span class="icon">🔗</span> GitHub</a></li>
+            <li><a href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer"><span class="icon">📘</span> CodeAcademy</a></li>
+            <li><a href="https://github.com/Maryam-0073?tab=repositories"><span class="icon">✉️</span> Git Hub repository</a></li>
+            <li><a href="maryam.axundova@gmail.com"><span class="icon">✉️</span> My email</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-planet" aria-hidden="true">
+          <!-- Place planet image here: replace with ./assets/planet.jpg or update CSS background-image -->
+        </div>
       </div>
     </section>
   </main>
