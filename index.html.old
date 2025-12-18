@@ -1,0 +1,91 @@
+---
+layout: default
+title: Home
+permalink: /
+---
+
+<section id="home" class="section section-hero">
+  <div class="section-inner">
+    <h1 class="hero-title">Welcome to <span class="hero-name">my<br>Portfolio.</span></h1>
+    <div class="hero-subtitle">IT student</div>
+    <p class="hero-desc">Here, you will get to know more about me, explore my achievements, and see the projects I have worked on. This collection highlights my skills, experiences, and the work I am most proud of, giving you a clear picture of my journey and abilities.</p>
+
+    <div class="cta-group">
+      <a class="btn btn-primary" href="{{ '/about.html' | relative_url }}">About Me</a>
+      <a class="btn btn-secondary" href="#skills">Achievements <span class="arrow">➜</span></a>
+    </div>
+  </div>
+
+  <div class="hero-right hero-image" role="img" aria-label="Hero image">
+    <!-- background image set in CSS -->
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="section-inner">
+    <h2>Achievements &amp; Skills</h2>
+    <p class="muted">I will use my "Free Will" and write about my achievements throughout my life, even those that have nothing to do with education.</p>
+
+    <ul class="learning-list">
+      <li class="skill-item">
+        <h3 class="skill-name">Two First places in Swimmimg competition.</h3>
+        <p class="skill-desc">First time when I participaed in swimming competiton, at the last 5 meters i thought that I am the last and swam slow at the end, but then I saw that 3rd place girl was in the same rythm as me. It was good lesson for me and next 2 times i pushed through my limits and took first places.</p>
+        <div class="skill-photo">
+          <img src="{{ '/projects/html-photo.jpg' | relative_url }}" alt="HTML example photo">
+        </div>
+      </li>
+
+      <li class="skill-item">
+        <h3 class="skill-name">World Scholars Cup</h3>
+        <p class="skill-desc">It was competition between english taught schools and my school "Zarifa Alieva Lyceum" was the only russian taught school. There were group debates, kahoot and etc. I got 4th place in Social Science, 12th in History and 1st in Science and Technology. Our team got 12th golden medal in Scholar's Bowl. </p>
+        <div class="skill-photo">
+          <img src="{{ '/projects/css-photo.jpg' | relative_url }}" alt="CSS example photo">
+        </div>
+      </li>
+
+      <li class="skill-item">
+        <h3 class="skill-name">Admission to university</h3>
+        <p class="skill-desc">Maybe for someone it is not a big deal, but for me, it was a huge achievement to graduate to ADA university. I worked hard to get good SAT and IELTS scores.</p>
+        <div class="skill-photo">
+          <img src="{{ '/projects/js-photo.jpg' | relative_url }}" alt="JavaScript example photo">
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="section-inner">
+    <h2>Projects</h2>
+    <p class="muted">Here are some projects that I worked on through first semester of university and at school.</p>
+
+    <ul class="projects-grid">
+      <li class="project-card">
+        <div class="project-image">
+          <img src="{{ '/projects/logic-gates.png' | relative_url }}" alt="Logic Gates screenshot" class="project-photo">
+        </div>
+        <h3>Logic Gates</h3>
+        <p class="muted">First practical group project. </p>
+      </li>
+
+      <li class="project-card">
+        <div class="project-image">
+          <img src="{{ '/projects/project-2.jpg' | relative_url }}" alt="Project screenshot" class="project-photo">
+        </div>
+        <h3>Robotics project</h3>
+        <p class="muted">Ukranians came to look at this project. </p>
+      </li>
+
+      <li class="project-card">
+        <div class="project-image">
+          <img src="{{ '/projects/project-3.jpg' | relative_url }}" alt="Project screenshot" class="project-photo">
+        </div>
+        <h3>Project 3</h3>
+        <p class="muted">We had to go to any school and teach IT lesson.</p>
+      </li>
+    </ul>
+
+    <p><a class="btn" href="{{ '/projects.html' | relative_url }}">See all projects →</a></p>
+  </div>
+</section>
+
